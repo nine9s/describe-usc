@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <ImageView  
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent" 
+        android:scaleType="center"
+        android:src="@drawable/usc" />
+        
+  <TextView
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_marginBottom="20dip"
+        android:layout_gravity="center_horizontal|top"
+        android:padding="12dip"
+        android:textColor="#ffffff00"        
+        android:text="where would you like to go?" 
+        android:typeface="serif" 
+        android:textStyle="italic"
+        android:textSize="16sp" /> 
+  
+   <EditText
+		android:id="@+id/destination"
+		android:layout_width="278px"
+		android:layout_height="36px"
+		android:layout_marginTop="40dip"
+		android:layout_gravity="center_horizontal"					
+		>
+ </EditText>
+ 
+ <Button
+		android:id="@+id/go_button"
+		android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"		
+		android:background="#AA000000"
+		android:textColor="#ffffff00"
+		android:text="deSCribe"
+		android:typeface="serif"		
+		android:textSize="18sp"			
+		>
+</Button>         
+    
+</merge>
+
+

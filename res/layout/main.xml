@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <ImageView  
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent" 
+        android:scaleType="center"
+        android:src="@drawable/confused" />   
+  
+  <Button
+		android:id="@+id/go_button"
+		android:layout_width="320px" 
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"		
+		android:background="#AA000000"
+		android:textColor="#ffffff00"
+		android:text="deSCribe, click to start"
+		android:typeface="serif"		
+		android:textSize="18sp"	
+				
+		>
+</Button>          
+      
+</merge>
+
+

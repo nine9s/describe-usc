@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Fine">Fine Detail</string>
+    <string name="hello">Hello</string>
+    <string name="Coarse">Coarse Detail</string>
+    <string name="radio_selection">"You have selected: "</string>
+    <string name="radio_group_none">(none)</string>
+    <string name="radio_clear">Clear</string>
+    <string name="app_name">deSCribe</string>
+</resources>

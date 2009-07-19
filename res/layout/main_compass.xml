@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <ImageView  
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent" 
+        android:scaleType="center"
+        android:src="@drawable/compass1" />
+        
+  <TextView
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_marginBottom="20dip"
+        android:layout_gravity="center_horizontal|top"
+        android:padding="12dip"
+        android:textColor="#ffffff00"        
+        android:text="what is ahead?" 
+        android:typeface="serif" 
+        android:textStyle="italic"
+        android:textSize="16sp" /> 
+   
+ 
+ <Button
+		android:id="@+id/info_button"
+		android:layout_width="155px" 
+        android:layout_height="155px"
+        android:layout_gravity="center_horizontal|center"		
+		android:background="#AA000000"
+		android:textColor="#ffffff00"
+		android:text="Click to get info"
+		android:typeface="serif"		
+		android:textSize="20sp"			
+		>
+</Button>         
+    
+</merge>
+
+
