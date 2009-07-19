@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <ImageView  
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent" 
+        android:scaleType="center"
+        android:src="@drawable/tommytrojan2" >
+     </ImageView>   
+  <TextView
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_marginBottom="20dip"
+        android:padding="12dip"
+        android:textColor="#ffffff00"        
+        android:text="where would you like to go?" 
+        android:typeface="serif" 
+        android:textStyle="italic"
+        android:textSize="16sp" > 
+  </TextView>
+   <EditText
+android:id="@+id/etEnd"
+android:text=""
+android:layout_marginTop="39dip"
+android:layout_gravity="center_horizontal|top"
+android:layout_width="210px"
+android:layout_height="39px"
+android:textSize="18sp"
+android:layout_x="104px"
+android:layout_y="54px"
+>
+</EditText> 
+<TextView
+android:id="@+id/tvPath"
+android:textStyle="italic"
+android:textSize="16sp" 
+android:layout_gravity="center_horizontal|center"
+ android:textColor="#ffffff00"
+android:layout_width="303px"
+android:layout_height="195px"
+android:text=""
+android:layout_x="9px"
+android:layout_y="157px"
+>
+</TextView>
+
+<Button
+android:id="@+id/btnPath"
+android:layout_gravity="center_horizontal|bottom"
+android:layout_width="191px"
+android:layout_height="53px"
+android:text="Get Path"
+android:layout_x="67px"
+android:layout_y="102px"
+>
+</Button>    
+</merge>
+
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >    
+
+<RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:checkedButton="@+id/detail"
+        android:id="@+id/menu">
+        <RadioButton
+            android:text="@string/Fine"
+            android:id="@+id/Fine"
+            />
+        <RadioButton
+            android:text="@string/Coarse"
+            android:id="@+id/Coarse" /> 
+        <TextView
+            android:text="@string/radio_selection"
+            android:id="@+id/choice" />          
+    </RadioGroup> 
+  
+
+</LinearLayout>

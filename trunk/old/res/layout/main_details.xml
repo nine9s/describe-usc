@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+android:id="@+id/widget30"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+<TextView
+android:id="@+id/tvStart"
+android:layout_width="96px"
+android:layout_height="33px"
+android:text="Enter you Destination"
+android:layout_x="6px"
+android:layout_y="13px"
+>
+</TextView>
+<Button
+android:id="@+id/btnPath"
+android:layout_width="191px"
+android:layout_height="53px"
+android:text="Get Path"
+android:layout_x="67px"
+android:layout_y="102px"
+>
+</Button>
+<TextView
+android:id="@+id/tvEnd"
+android:layout_width="93px"
+android:layout_height="wrap_content"
+android:text="End Location"
+android:layout_x="3px"
+android:layout_y="56px"
+>
+</TextView>
+<EditText
+android:id="@+id/etEnd"
+android:text="rth"
+android:layout_width="210px"
+android:layout_height="39px"
+android:textSize="18sp"
+android:layout_x="104px"
+android:layout_y="54px"
+>
+</EditText>
+
+<TextView
+android:id="@+id/tvPath"
+android:layout_width="303px"
+android:layout_height="195px"
+android:text="TextView"
+android:layout_x="9px"
+android:layout_y="157px"
+>
+</TextView>
+
+</AbsoluteLayout>
